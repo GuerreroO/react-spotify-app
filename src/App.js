@@ -6,10 +6,8 @@ import Search from './components/Search';
 import SearchResults from './components/SearchResults';
 import ArtistAlbums from './components/ArtistAlbums';
 import AlbumTracks from './components/AlbumTracks';
-
 const clientId = '4106871331f944c4b516d376d8b5616c';
 const redirectUri = 'http://localhost:3000/';
-
 
 class App extends Component {
   constructor(props){
@@ -34,7 +32,6 @@ class App extends Component {
     })
     console.log(this.state.trackList, 'these are tracks')
   }
-
 
   checkForPlayer() {
     const token = localStorage.getItem('spotify_access_token')
