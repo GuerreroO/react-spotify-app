@@ -1,0 +1,50 @@
+                    /*Artists*/
+.all-artists{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  background: black;
+  color: white;
+
+}
+
+.artists{
+  flex: 1;
+  width: 100%;
+  max-height: 160px;
+  overflow: hidden;
+}
+
+.artist-name{
+  margin: 0;
+}
+
+.artist-images{
+  max-width: 150px;
+  max-height: 130px;
+}
+
+.all-albums{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  background: white;
+  color: black;
+
+}
+                    /*Albums*/
+.albums{
+  flex: 1;
+  max-width: 120px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.album-names{
+  margin: 0;
+}
+
+.album-images{
+  max-width: 150px;
+  max-height: 130px;
+}
